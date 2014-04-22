@@ -1,19 +1,19 @@
 #change to use mysql,database:webApp under root@localhost
 development:
   adapter: mysql
-  database: webApp
+  database: WebApp
   username: root
   password: wen
   socket: /Applications/MAMP/tmp/mysql/mysql.sock
 test:
   adapter: mysql
-  database: webApp
+  database: WebApp
   username: root
   password: wen
   socket: /Applications/MAMP/tmp/mysql/mysql.sock
 production:
   adapter: mysql
-  database: cookbook
+  database: WebApp
   username: root
   password: wen
   socket: /Applications/MAMP/tmp/mysql/mysql.sock
